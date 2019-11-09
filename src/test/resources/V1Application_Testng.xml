@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Hackathon Challange- Application V1 Test Scripts">
+    <parameter name="Application_URL" value="https://demo.applitools.com/hackathon.html"></parameter>
+    <parameter name="Username" value="TestUser1"></parameter>
+    <parameter name="password" value="_password1"></parameter>
+    <parameter name="Testapproach" value="Traditional"></parameter>
+    <parameter name="AdUrl" value="https://demo.applitools.com/hackathon.html?showAd=true"></parameter>
+
+
+    <test name="Validate the Test Scripts in V1 Hackathon App">
+        <classes>
+            <class name="Test.Scripts.TraditionalTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>
+  
